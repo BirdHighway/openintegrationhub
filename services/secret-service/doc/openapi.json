@@ -33,7 +33,7 @@
     }
   ],
   "paths" : {
-    "/auth-clients/" : {
+    "/api/v1/auth-clients/" : {
       "get" : {
         "tags" : [ "Auth clients" ],
         "summary" : "Retrieve all clients",
@@ -119,7 +119,7 @@
         }
       }
     },
-    "/auth-clients/{clientId}" : {
+    "/api/v1/auth-clients/{clientId}" : {
       "get" : {
         "tags" : [ "Auth clients" ],
         "summary" : "Find client by ID",
@@ -206,7 +206,7 @@
         }
       }
     },
-    "/auth-clients/{clientId}/start-flow" : {
+    "/api/v1/auth-clients/{clientId}/start-flow" : {
       "post" : {
         "tags" : [ "Auth clients" ],
         "summary" : "Start an authorization flow",
@@ -262,7 +262,7 @@
         }
       }
     },
-    "/callback" : {
+    "/api/v1/callback" : {
       "get" : {
         "tags" : [ "Callback" ],
         "summary" : "Invoked by Provider (redirect uri) or other services",
@@ -290,7 +290,7 @@
         }
       }
     },
-    "/secrets/" : {
+    "/api/v1/secrets/" : {
       "get" : {
         "tags" : [ "Secrets" ],
         "summary" : "Retrieve all secrets",
@@ -376,7 +376,7 @@
         }
       }
     },
-    "/secrets/{secretId}" : {
+    "/api/v1/secrets/{secretId}" : {
       "get" : {
         "tags" : [ "Secrets" ],
         "summary" : "Find secret by ID",
