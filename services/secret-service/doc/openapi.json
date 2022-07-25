@@ -145,7 +145,7 @@
                 "schema" : {
                   "properties" : {
                     "data" : {
-                      "$ref" : "#/components/schemas/MutableAuthClient"
+                      "$ref" : "#/components/schemas/AuthClient"
                     }
                   }
                 }
@@ -190,7 +190,7 @@
                 "schema" : {
                   "properties" : {
                     "data" : {
-                      "$ref" : "#/components/schemas/MutableAuthClient"
+                      "$ref" : "#/components/schemas/AuthClient"
                     }
                   }
                 }
